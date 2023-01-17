@@ -322,7 +322,7 @@
     color: #bbbbbb;
   }
   .highlight {
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 }
 
@@ -547,6 +547,6 @@
   }
   .highlight {
     color: #f8f8f2;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 }
