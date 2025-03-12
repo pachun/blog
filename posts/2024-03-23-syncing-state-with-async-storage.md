@@ -78,4 +78,4 @@ export default UserIdProvider
 
 Maybe I got too clever. For now, I think I like it.
 
-[More Blog Posts by Nick Pachulski](README.md)
+[More Blog Posts by Nick Pachulski](/README.md)
