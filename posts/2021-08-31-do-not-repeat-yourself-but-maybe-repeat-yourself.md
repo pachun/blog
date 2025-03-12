@@ -1,8 +1,6 @@
-# Repeat Yourself
+# Do Not Repeat Yourself - But Maybe Repeat Yourself
 
-Nicholas Pachulski
-
-_March 31st, 2021_
+_August 31st, 2021_
 
 [Most of what I'm gonna say here has already been said really well by my favorite speaker, Sandi Metz.][1]
 
@@ -17,3 +15,5 @@ When conditionals start appearing in DRY'd code because one of the callers requi
 [1]: https://www.youtube.com/watch?v=8bZh5LMaSmE
 [2]: https://en.wikipedia.org/wiki/Code_golf
 [3]: https://en.wikipedia.org/wiki/Rule_of_three_(computer_programming)
+
+[All Posts](/README.md)

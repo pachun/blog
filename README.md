@@ -9,3 +9,4 @@
 - [Jekyll Blog Post Tags and GitHub Pages](/posts/2022-10-01-jekyll-blog-post-tags-and-github-pages.md)
 - [Test Drive to Get 100% Coverage That's Not a Vanity Metric](/posts/2021-09-03-test-drive-to-get-100-percent-coverage-thats-not-a-vanity-metric.md)
 - [Take Your Moonshot](/posts/2021-09-01-take-your-moonshot.md)
+- [Do Not Repeat Yourself - But Maybe Repeat Yourself](/posts/2021-08-31-do-not-repeat-yourself-but-maybe-repeat-yourself.md)
