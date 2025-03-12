@@ -10,7 +10,7 @@ Most people who use contexts in React create a bunch of them for performance rea
 
 If you're creating specific contexts you'll eventually end up with this sideways-mountain-looking view hierarchy. (All the examples posted here are written in React Native, but the concept we're interested in explaining in this post can be applied to react-only projects as well).
 
-```react
+```tsx
 import React from "react";
 import { Text, View } from "react-native";
 
@@ -51,7 +51,7 @@ export default App;
 
 It's not a problem. It's just annoying. Especially if you're using prettier with a maximum line length set. Fortunately, we can compose the providers to work around the issue.
 
-```react
+```tsx
 const ComposedProviders = ({ providersAndValues, children }) =>
   providersAndValues.reduceRight(
     (acc, providerAndValue) => (
@@ -59,7 +59,7 @@ const ComposedProviders = ({ providersAndValues, children }) =>
         {acc}
       </providerAndValue.provider>
     ),
-    children
+    children,
   );
 
 const App = () => {
@@ -90,19 +90,19 @@ Everything looks great to this point - but so far we've been writing javascript 
 
 Now, for my aha moment 🙇: To get this composition working well with Typescript, we can provide a common interface for all of the providers, so that Typescript can `reduceRight` over the list of providers without [needing to use the `any` type or other overly-complex and contrived type definitions to define the data type of each provider's value prop, which may or may not be present, and if it is, could be the shape of any of the context's types](https://stackoverflow.com/a/77152168/1137752).
 
-```react
+```tsx
 export type Provider = ({
   children,
 }: {
-  children: React.ReactElement | React.ReactElement[]
-}) => React.ReactElement
+  children: React.ReactElement | React.ReactElement[];
+}) => React.ReactElement;
 ```
 
 Obviously, the providers provided (🤦) to us when we do `AgeContext.Provider` return a provider that expects a value prop, so how do we get the provider to fit the `Provider` type we've created? More composition.
 
 Wrap each `Context.Provider` in a new component, defined by us, which initializes its state internally and conforms to our `Provider` type from above. Altogether, our finished app with safely-typed and composed providers becomes:
 
-```react
+```tsx
 import React from "react"
 import { Text, View } from "react-native"
 
@@ -167,43 +167,46 @@ export default App
 
 The key part here is:
 
-```react
-type Children = React.ReactElement | React.ReactElement[]
-type Provider = ({ children }: { children: Children }) => React.ReactElement
+```tsx
+type Children = React.ReactElement | React.ReactElement[];
+type Provider = ({ children }: { children: Children }) => React.ReactElement;
 
 // ...
 
 const NameProvider: Provider = ({ children }) => (
   <NameContext.Provider value={"Nick"}>{children}</NameContext.Provider>
-)
+);
 
 const AgeProvider: Provider = ({ children }) => (
   <AgeContext.Provider value={32}>{children}</AgeContext.Provider>
-)
+);
 
 const HeightInInchesProvider: Provider = ({ children }) => (
   <HeightInInchesContext.Provider value={72}>
     {children}
   </HeightInInchesContext.Provider>
-)
+);
 ```
 
 It's nice that each Provider we define initializes its own state, rather than initializing all the different provider's states in the `App` component, as we'd done earlier in the plain javascript example. Every provider conforms to our self-defined `Provider` type, allowing us to more easily `reduceRight` over the providers and compose them.
 
-```react
+```tsx
 const ComposedProviders = ({
   providers,
   children,
 }: {
-  providers: Provider[]
-  children: React.ReactElement
+  providers: Provider[];
+  children: React.ReactElement;
 }): React.ReactElement =>
-  providers.reduceRight((acc, Provider) => <Provider>{acc}</Provider>, children)
+  providers.reduceRight(
+    (acc, Provider) => <Provider>{acc}</Provider>,
+    children,
+  );
 ```
 
 This permits us to go from this:
 
-```react
+```tsx
 <NameContext.Provider value={"Nick"}>
   <AgeContext.Provider value={32}>
     <HeightInInchesContext.Provider value={72}>
@@ -215,7 +218,7 @@ This permits us to go from this:
 
 To this (in a type-safe way):
 
-```react
+```tsx
 <ComposedProviders
   providers={[NameProvider, AgeProvider, HeightInInchesProvider]}
 >
