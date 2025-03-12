@@ -1,5 +1,7 @@
 # Hosting my Blog in Github
 
+Nicholas Pachulski
+
 _March 3rd, 2025_
 
 I'm trying out hosting my blog directly in a GitHub repository. I've used GitHub Pages in the past and several other blogging tools in the past. The trouble is, I often forget to write for a while. Then the thought of updating the blog with a new post becomes a bigger chore in my mind and prevents me from doing it. Is my version of Jekyll out of date? Did my syntax highlighter break? Am I still happy with my dark mode theme?
