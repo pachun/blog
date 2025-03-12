@@ -1,7 +1,5 @@
 # Fly By Wire
 
-Nicholas Pachulski & Brian Voskerijian
-
 _July 14th, 2020_
 
 This article's actually a podcast. Surprise! 🎉
@@ -19,3 +17,5 @@ Immediately after attending RPI in upstate New York, Brian moves to Ithaca to de
 [Peet's Espresso](https://www.peets.com/coffee/espresso-capsules)
 [Newton](https://newtonhq.com/)
 [Steve Yegge's Drunken Blog Rants](https://sites.google.com/site/steveyegge2/blog-rants)
+
+[All Posts](/README.md)

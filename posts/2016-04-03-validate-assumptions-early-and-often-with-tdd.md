@@ -1,7 +1,5 @@
 # Validate Assumptions Early and Often with TDD
 
-Nicholas Pachulski
-
 _April 3rd, 2016_
 
 Let's test drive an even number function<!--end-of-excerpt-->:
@@ -97,3 +95,5 @@ end
 ```
 
 Validate assumptions early and often with TDD.
+
+[All Posts](/README.md)

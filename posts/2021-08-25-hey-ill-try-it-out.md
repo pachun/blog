@@ -1,7 +1,5 @@
 # Hey, I'll Try It Out
 
-Nicholas Pachulski
-
 _August 25th, 2021_
 
 [I'm trying out Hey][1]. It's a new email provider made by some interesting people.
@@ -16,3 +14,5 @@ We'll see if Hey is the new way for me.
 
 [1]: https://www.hey.com/index.html
 [2]: https://www.hey.com/the-hey-way/
+
+[All Posts](/README.md)

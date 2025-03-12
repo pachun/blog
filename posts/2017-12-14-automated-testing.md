@@ -1,7 +1,5 @@
 # Automated Testing
 
-Nicholas Pachulski
-
 _December 14th, 2017_
 
 The reason for having automated tests is to know whether or not code works. Working code fulfills product requirements.
@@ -63,3 +61,5 @@ Do the best thing for today.
 Test your product requirements, not your code.
 
 [1]: https://en.wikipedia.org/wiki/Transitive_relation
+
+[All Posts](/README.md)

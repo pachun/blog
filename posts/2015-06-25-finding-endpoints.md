@@ -1,7 +1,5 @@
 # Finding Endpoints
 
-Nicholas Pachulski
-
 _June 25th, 2015_
 
 Sometimes I want to know what server side endpoints I'm hitting as I click around in the browser. The app I maintain at work is large, containing a server side rails app and client side angular app all shoved into a single repository which (in large part) lacks tests and RESTful routes.
@@ -16,3 +14,5 @@ client. Open the inspector with `⌘ ⌥ i` (that's `command option i`) and clic
 the Network tab to display it.
 
 From here (especially for me since none of my app's routes are RESTful) you can search your `routes.rb` file for the request path and find the corresponding controller and action.
+
+[All Posts](/README.md)

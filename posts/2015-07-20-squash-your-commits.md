@@ -1,7 +1,5 @@
 # Squash Your Commits
 
-Nicholas Pachulski
-
 _July 20th, 2015_
 
 When I was introduced to the concept of squashing commits, I had a difficult
@@ -35,3 +33,5 @@ You'll probably want to see just one commit, encapsulating the overarching task.
 With a good commit message, and well-written tests, you shouldn't need the
 individual commits anymore. If it turns out that code isn't needed anymore, you
 only need to revert one commit.
+
+[All Posts](/README.md)

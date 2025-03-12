@@ -1,7 +1,5 @@
 # Order Matters
 
-Nicholas Pachulski
-
 _July 19th, 2020_
 
 Many of us split development work into segments called user stories. User stories deliver value. There should be no point at which a story is completed and no new value is delivered.
@@ -89,3 +87,5 @@ This isn't value.
 We should choose someone whose zip code and favorite available service provider we already know. This gets us to the value creating bit immediately.
 
 Always create value.
+
+[All Posts](/README.md)

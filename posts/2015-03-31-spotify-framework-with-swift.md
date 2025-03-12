@@ -1,7 +1,5 @@
 # Spotify.framework with Swift
 
-Nicholas Pachulski
-
 _March 31st, 2015_
 
 From Spotify's iOS SDK documentation:
@@ -147,3 +145,5 @@ and remove **DEPRECATED_ATTRIBUTE**.
 ### Spotify URIs
 
 Right click any playlist, album, or song in Spotify to get its URI. You can use your non-public playlists if you're logged in as well.
+
+[All Posts](/README.md)

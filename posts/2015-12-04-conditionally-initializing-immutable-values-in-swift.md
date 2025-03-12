@@ -1,7 +1,5 @@
 # Conditionally Initializing Immutable Values in Swift
 
-Nicholas Pachulski
-
 _December 4th, 2015_
 
 Immutability is great if you can swing it, but sometimes you run into tricky
@@ -102,3 +100,5 @@ use(x)
 ```
 
 > which formerly required the use of a `var`, even though there is no mutation taking place. (16181314)
+
+[All Posts](/README.md)

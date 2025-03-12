@@ -1,7 +1,5 @@
 # Keep a Linear Git History
 
-Nicholas Pachulski
-
 _July 15th, 2020_
 
 The goal of this guide is to help teach you how to keep your repository's history clear.
@@ -266,3 +264,5 @@ git merge <feature-branch-name>
 git push origin master
 
 ```
+
+[All Posts](/README.md)

@@ -8,4 +8,4 @@ _February 16th, 2018_
 
 Cheers! 🍻
 
-<!--end-of-excerpt-->
+[All Posts](/README.md)
