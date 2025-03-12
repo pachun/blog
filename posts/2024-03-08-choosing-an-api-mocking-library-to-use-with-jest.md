@@ -26,7 +26,7 @@ Maybe that happened because I didn't take the lesson of doing "as little as is r
 
 Take, for example, testing that when a button is tapped, a user is sent a confirmation code to enter into the app, to confirm who they are:
 
-```react
+```tsx
 const sendTextMessageConfirmationCode = async (): Promise<void> => {
   await fetch(
     `${Config.apiUrl}/players/${player.id.toString()}/send_text_message_confirmation_code`,
@@ -35,7 +35,7 @@ const sendTextMessageConfirmationCode = async (): Promise<void> => {
 
 // ...
 
-<ReactNative.Button
+;<ReactNative.Button
   testID="This is Me Button"
   title="👋 This is Me"
   onPress={sendTextMessageConfirmationCode}
@@ -46,7 +46,7 @@ We want to make sure that when the button is tapped, an API request is made to s
 
 The test for that, using MSW (and jest and expo-router-testing-library) looks like this:
 
-```react
+```tsx
 describe("viewing a player", () => {
 
   // ...
@@ -140,7 +140,7 @@ I have a few nitty things to say about this.
 
 I wrote a helper function to abstract away the MSW-configuring bits from my tests which tries to address the concerns I listed above. Using that function, the test looks a little better:
 
-```react
+```tsx
 it("sends a text message to the players phone number containing a 6-digit code", async () => {
   const player = playerFactory({ id: 1 })
 
@@ -167,9 +167,7 @@ it("sends a text message to the players phone number containing a 6-digit code",
       })
 
       await ERTL.waitFor(() =>
-        ERTL.fireEvent.press(
-          ERTL.screen.getByTestId("This is Me Button"),
-        ),
+        ERTL.fireEvent.press(ERTL.screen.getByTestId("This is Me Button")),
       )
     },
   })
@@ -184,7 +182,7 @@ The wrapper removes a good amount of the setup code. You could go even crazier b
 
 I feel that using the wrapper function is nicer than using the default MSW api, but the wrapper function was a little over 100 lines of code, and because I've got its arguments strongly typed with Typescript, each new endpoint I want to mock requires a couple new type definitions to be added to the wrapper. Here are some examples of those type definitions:
 
-```react
+```tsx
 export type MockedPlayersRequestResponse = Player[] | "Network Error"
 export interface MockedPlayersRequest {
   method: "get"
@@ -199,9 +197,7 @@ export interface MockedGamesRequest {
   response: MockedGamesRequestResponse
 }
 
-export type MockedRequest =
-  | MockedPlayersRequest
-  | MockedGamesRequest
+export type MockedRequest = MockedPlayersRequest | MockedGamesRequest
 ```
 
 As I abstracted away what I felt should be defaults and added more endpoint mocks, I realized that I was spending an outsized amount of my time working around MSW.
@@ -210,7 +206,7 @@ Enter [nock](https://github.com/nock/nock). Nock is another API mocking library 
 
 Using Nock, the test becomes:
 
-```react
+```tsx
 it("sends a text message to the players phone number containing a 6-digit code", async () => {
   const player = playerFactory({ id: 1 })
 
