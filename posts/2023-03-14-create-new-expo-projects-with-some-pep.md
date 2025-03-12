@@ -1,6 +1,4 @@
-Create New Expo Projects with Some Pep
-
-Nicholas Pachulski
+# Create New Expo Projects with Some Pep
 
 _March 14th, 2024_
 
@@ -36,14 +34,18 @@ I'm expecting Vim to update this sloppy edit I made when I save the file.
 
 <!-- {% raw %} -->
 
-```
-const App = () =>
-  (
-    <View style={styles.container}>
-      <Text style={{fontWeight: 'bold', fontSize: 22, textAlign: 'right', }} numberOfLines={1}>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  )
+```tsx
+const App = () => (
+  <View style={styles.container}>
+    <Text
+      style={{ fontWeight: "bold", fontSize: 22, textAlign: "right" }}
+      numberOfLines={1}
+    >
+      Open up App.tsx to start working on your app!
+    </Text>
+    <StatusBar style="auto" />
+  </View>
+)
 ```
 
 <!-- {% endraw %} -->
@@ -52,7 +54,7 @@ const App = () =>
 
 <!-- {% raw %} -->
 
-```
+```tsx
 const App = () => (
   <View style={styles.container}>
     <Text
@@ -162,3 +164,5 @@ It's also nice not having to put your creativity and enthusiasm on hold while yo
 <img src="https://i.imgur.com/XlEyADo.png" width="650"/>
 
 That's why I made pep.
+
+[All posts](/README.md)
