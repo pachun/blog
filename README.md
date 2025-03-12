@@ -29,5 +29,4 @@
 
 ### To Do
 
-- Remove `<!--end-of-excerpt-->` from posts
 - Ensure assets are available (the _Take Your Moonshot_ post is missing some)

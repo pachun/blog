@@ -2,7 +2,7 @@
 
 _October 1st, 2022_
 
-Tagging blog posts in jekyll is straightforward if you can use [plugins like this one][1]. However, [GitHub Pages only supports a set of whitelisted plugins][2] and I don't see any blog-post-tagging related helpers in that list. To make Jekyll tags work on GitHub Pages, you need to create an index page for each of your tags, which is painful.<!--end-of-excerpt-->
+Tagging blog posts in jekyll is straightforward if you can use [plugins like this one][1]. However, [GitHub Pages only supports a set of whitelisted plugins][2] and I don't see any blog-post-tagging related helpers in that list. To make Jekyll tags work on GitHub Pages, you need to create an index page for each of your tags, which is painful.
 
 [I came up with a workaround that automates the process a bit and put it in a gem][3].
 

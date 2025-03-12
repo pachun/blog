@@ -3,7 +3,7 @@
 _March 14th, 2024_
 
 [Expo](https://expo.dev) sets you up with a new [React Native](https://reactnative.dev) project that will run natively on Android, iOS, and in the browser with a single codebase.
-You can also put that same code in an [Electron app](https://www.electronjs.org) to get it running as Mac and Windows desktop applications. <!--end-of-excerpt-->
+You can also put that same code in an [Electron app](https://www.electronjs.org) to get it running as Mac and Windows desktop applications.
 
 Beginning work on a new idea is an exciting time and every so often I find myself creating a new Expo project, enthusiasm abound.
 Although it's usually been a while since I last kicked off a new Expo project, so I'll cruise on over to the "Beginning Expo" docs to remind myself how to get started. Found it!

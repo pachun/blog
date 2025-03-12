@@ -6,7 +6,7 @@ A vanity metric looks good on paper but doesn't inform future strategies. It fal
 
 Code coverage can be a vanity metric.
 
-100% test coverage means that the test suite runs every line of production code. That doesn't mean it exercises the code's entire intent. <!--end-of-excerpt--> Here's an example:
+100% test coverage means that the test suite runs every line of production code. That doesn't mean it exercises the code's entire intent. Here's an example:
 
 ```ruby
 require "rspec"

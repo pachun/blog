@@ -2,7 +2,7 @@
 
 _April 3rd, 2016_
 
-Let's test drive an even number function<!--end-of-excerpt-->:
+Let's test drive an even number function:
 
 ```ruby
 it "returns true when passed an even number" do

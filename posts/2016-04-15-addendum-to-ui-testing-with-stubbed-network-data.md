@@ -6,7 +6,7 @@ This post will only be helpful to you if you intend to use [Joe Masilotti's
 strategy for stubbing network data in your UI Tests](http://masilotti.com/ui-testing-stub-network-data/).
 
 You will run into a problem when you try to set a key of
-`app.launchEnvironment` to a string with an equals sign in it.<!--end-of-excerpt--> (like this one):
+`app.launchEnvironment` to a string with an equals sign in it. (like this one):
 
 ```
 https://maps.googleapis.com/maps/api/distancematrix/json?origins=42.3535418,-71.0613433&destinations=42.3529193,-71.0577234&mode=walking
