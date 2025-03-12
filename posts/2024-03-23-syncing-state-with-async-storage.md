@@ -1,7 +1,5 @@
 # Syncing State with AsyncStorage
 
-Nicholas Pachulski
-
 _March 23rd, 2024_
 
 I have a few [providers](https://react.dev/reference/react/createContext#provider) which initialize state, shove it in a context, and then ensure that the state is synchronized with AsyncStorage so that if the app is quit and restarted, the context's state is rehydrated from AsyncStorage. A few examples of the types of state I tend to treat this way are API tokens and user IDs.
@@ -79,3 +77,5 @@ export default UserIdProvider
 ```
 
 Maybe I got too clever. For now, I think I like it.
+
+[More Blog Posts by Nick Pachulski](README.md)
