@@ -1,3 +1,5 @@
+[Other blog posts by Nicholas Pachulski](/README.md)
+
 # Syncing State with AsyncStorage
 
 _March 23rd, 2024_
@@ -78,4 +80,4 @@ export default UserIdProvider
 
 Maybe I got too clever. For now, I think I like it.
 
-[More Blog Posts by Nick Pachulski](/README.md)
+[All blog posts by Nicholas Pachulski](/README.md)
