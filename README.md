@@ -10,3 +10,4 @@
 - [Test Drive to Get 100% Coverage That's Not a Vanity Metric](/posts/2021-09-03-test-drive-to-get-100-percent-coverage-thats-not-a-vanity-metric.md)
 - [Take Your Moonshot](/posts/2021-09-01-take-your-moonshot.md)
 - [Do Not Repeat Yourself - But Maybe Repeat Yourself](/posts/2021-08-31-do-not-repeat-yourself-but-maybe-repeat-yourself.md)
+- [Simplify Maintenance of React Function Components](/posts/2021-08-30-simplify-maintenance-of-react-function-components.md)
