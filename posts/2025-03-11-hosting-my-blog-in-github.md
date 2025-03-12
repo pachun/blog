@@ -1,6 +1,6 @@
 # Hosting my Blog in Github
 
-_March 3rd, 2025_
+_March 11th, 2025_
 
 I'm testing out hosting my blog in a GitHub repository. Like - directly in a GitHub repository. This one. No GitHub Pages. No Jekyll templates. No build tools.
 
