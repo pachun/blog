@@ -8,3 +8,4 @@
 - [Create New Expo Projects with Some PEP](/posts/2023-03-14-create-new-expo-projects-with-some-pep.md)
 - [Jekyll Blog Post Tags and GitHub Pages](/posts/2022-10-01-jekyll-blog-post-tags-and-github-pages.md)
 - [Test Drive to Get 100% Coverage That's Not a Vanity Metric](/posts/2021-09-03-test-drive-to-get-100-percent-coverage-thats-not-a-vanity-metric.md)
+- [Take Your Moonshot](/posts/2021-09-01-take-your-moonshot.md)

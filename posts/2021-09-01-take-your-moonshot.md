@@ -1,7 +1,5 @@
 # Take Your Moonshot
 
-Nicholas Pachulski
-
 _January 1st, 2021_
 
 Since 2014, I've spent untold hours on each of 13 iOS app side projects. Three of them made it into the App Store. Not because Apple rejected the others, but because my enthusiasm for them fell away. I even stopped work on the project I consider to have been most successful, which accrued just over 2.5K users.
@@ -41,3 +39,5 @@ Here's the final chapter of my favorite book, _Rework_:
 > Inspiration is a magical thing, a productivity multiplier, a motivator. But it won't wait for you. Inspiration is a now thing. If it grabs you, grab it right back and put it to work.
 
 [1]: https://egghead.io
+
+[All Posts](/README.md)
