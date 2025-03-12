@@ -234,4 +234,4 @@ Nock addresses all of the concerns I addressed with my wrapper function, but now
 
 The downside of Nock is that it specifically mocks out whichever network-request-making option you choose (fetch, axios, etc) - So my tests are coupled to production's implementation more than I'd prefer. I actually don't think that's too big of a problem. As I recall, I think I've been using fetch since I started writing Javascript professionally in 2014 and I've definitely been using it since I started writing React in 2017. It's unlikely that will change and using Nock now will save me a lot of time immediately, make my tests more readable, and lower that _aw-shit-I've-gotta-write-a-test-involving-api-mocking_ emotion I feel when I consider adding new features.
 
-[All posts](/README.md)
+[All Posts](/README.md)

@@ -165,4 +165,4 @@ It's also nice not having to put your creativity and enthusiasm on hold while yo
 
 That's why I made pep.
 
-[All posts](/README.md)
+[All Posts](/README.md)

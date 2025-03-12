@@ -25,4 +25,4 @@ New things to worry about:
 
 I'm not too concerned about those. If I forget to do something or do something wrong, I'll probably spot it. If I don't, when I do, it will be simple to fix. I think this is a good tradeoff. At least, I'm going to try it.
 
-[All posts](/README.md)
+[All Posts](/README.md)

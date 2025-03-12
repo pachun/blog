@@ -8,21 +8,21 @@ I was able to test that the prompt was displayed by mocking out the call to show
 
 ```tsx
 it("shows an alert with an input to enter the text message's confirmation code", async () => {
-  jest.spyOn(ReactNative.Alert, "prompt");
+  jest.spyOn(ReactNative.Alert, "prompt")
 
-  ERTL.renderRouter("src/app", { initialUrl: "/players/1" });
+  ERTL.renderRouter("src/app", { initialUrl: "/players/1" })
 
   await ERTL.waitFor(() =>
     ERTL.fireEvent.press(ERTL.screen.getByTestId("This is Me Button")),
-  );
+  )
 
   // https://reactnative.dev/docs/alert#prompt-ios
-  const expectedTitle = "We texted you a 6-digit code";
-  const expectedMessage = "Enter it here";
-  const expectedCallback = expect.any(Function);
-  const expectedType = "plain-text";
-  const expectedDefaultValue = "";
-  const expectedKeyboardType = "number-pad";
+  const expectedTitle = "We texted you a 6-digit code"
+  const expectedMessage = "Enter it here"
+  const expectedCallback = expect.any(Function)
+  const expectedType = "plain-text"
+  const expectedDefaultValue = ""
+  const expectedKeyboardType = "number-pad"
 
   expect(ReactNative.Alert.prompt).toHaveBeenCalledWith(
     expectedTitle,
@@ -31,8 +31,8 @@ it("shows an alert with an input to enter the text message's confirmation code",
     expectedType,
     expectedDefaultValue,
     expectedKeyboardType,
-  );
-});
+  )
+})
 ```
 
 This worked to test that the prompt is _shown_. However, testing the behavior needed when a code is actually entered into the prompt and submitted was very difficult because React Native Alerts are native components; they're not in the view hierarchy, so there's no way for [React Native Testing Library](https://callstack.github.io/react-native-testing-library/) to find the prompt and enter in text.
@@ -50,4 +50,4 @@ Here's the skinny...
 
 * React Native Dialog hasn't seen a commit in a few years. 😬 Living on the edge 🤙
 
-[All posts](/README.md)
+[All Posts](/README.md)
