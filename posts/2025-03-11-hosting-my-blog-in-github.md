@@ -2,27 +2,16 @@
 
 _March 3rd, 2025_
 
-Add to don't have to worry about list: domain
+I'm testing out hosting my blog in a GitHub repository. Like - directly in a GitHub repository. This one. No GitHub Pages. No Jekyll templates. No build tools.
 
-I'm trying out hosting my blog directly in a GitHub repository. I've used GitHub Pages in the past and several other blogging tools in the past. The trouble is, I often forget to write for a while. Then the thought of updating the blog with a new post becomes a bigger chore in my mind and prevents me from doing it. Is my version of Jekyll out of date? Did my syntax highlighter break? Am I still happy with my dark mode theme?
+Sometimes I forget to write a post for a while. After that, when I do decide that I have something worth writing about, there are mental (and real) blockers on getting to the actual writing. Those concerns are sort of similar to picking up work on a project that hasn't seen any commits in a few months.
 
-My hoping is that switching to hosting the blog directly in github will get me writing more often. Now, the only tools involved in writing a new blog post are tools I already use and love every day. Neovim and git are always up to date and I'm never scared to use them.
+> I don't like my dark theme anymore. Jekyll is out of date. My domain is expiring soon. My SEO isn't great. My syntax highlighting is attrocious.
 
-GitHub .md files aren't exactly intended for this, but for my purposes, since I'm familiar with git/GitHub, it'll make the thought of writing a positive one, rather than a fear-riddled one.
+Moving to GitHub to host the blog, right in a repository, removes all those concerns. Github manages all of that for me. **The only tools I need working in order to get a new post published is git and neovim**. I use those everyday. I take care of them. It's never been months since I touched them. I'm hoping this will remove the mental, "cosmetic" and build-tool related blockers I find myself addressing when posting for the first time in a while.
 
-Things I don't have to worry about anymore:
+Yes, I'll need to manage some things manually, like linking to a new post from the [index](/README.md) page (which is actually a `README.md` file) and linking back to to all posts at the bottom of each post. I think it's unlikely that I miss something like that, but when I do, it will be simple to fix. Everything's just markdown.
 
-- Outdated blogging tools: I don't use any; Everything is Markdown
-- Hosting: GitHub does it
-- Color schemes: GitHub provides them
-- Syntax Highlighting: GitHub is great at it
-- SEO: Github does it
-
-New things to worry about:
-
-- I will have to manually keep things like the [index page]() in sync with the posts.
-- I will have to manually keep post document title dates and in-document dates in sync.
-
-I'm not too concerned about those. If I forget to do something or do something wrong, I'll probably spot it. If I don't, when I do, it will be simple to fix. I think this is a good tradeoff. At least, I'm going to try it.
+For now, I think it's worth the tradeoff and I'm going to try it. I'll get back to you.
 
 [All Posts](/README.md)
