@@ -1,4 +1,4 @@
-[Other blog posts by Nicholas Pachulski](/README.md)
+[All posts](/README.md)
 
 # Syncing State with AsyncStorage
 
@@ -80,4 +80,4 @@ export default UserIdProvider
 
 Maybe I got too clever. For now, I think I like it.
 
-[All blog posts by Nicholas Pachulski](/README.md)
+[All posts](/README.md)
