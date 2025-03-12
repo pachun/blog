@@ -1,5 +1,3 @@
-[All Posts](/README.md)
-
 # Syncing State with AsyncStorage
 
 _March 23rd, 2024_
