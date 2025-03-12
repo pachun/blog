@@ -1,9 +1,5 @@
 # Nicholas Pachulski's Blog
 
-I write code. When things are good, I write blog posts.
-
-Sometimes I get spam phone calls at midnight.
-
 [Hosting my Blog in GitHub](posts/2025-03-11-hosting-my-blog-in-github.md)
 
 [Syncing State with AsyncStorage](posts/2024-03-23-syncing-state-with-async-storage.md)
