@@ -1,7 +1,5 @@
 # Hosting my Blog in Github
 
-Nicholas Pachulski
-
 _March 3rd, 2025_
 
 Add to don't have to worry about list: domain
@@ -26,3 +24,5 @@ New things to worry about:
 - I will have to manually keep post document title dates and in-document dates in sync.
 
 I'm not too concerned about those. If I forget to do something or do something wrong, I'll probably spot it. If I don't, when I do, it will be simple to fix. I think this is a good tradeoff. At least, I'm going to try it.
+
+[All posts](/README.md)
