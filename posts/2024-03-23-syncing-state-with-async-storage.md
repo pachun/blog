@@ -8,13 +8,13 @@ I have a few [providers](https://react.dev/reference/react/createContext#provide
 
 When I realized that I'd been doing this a lot in the past, and twice in my current project (for an API token and user ID), I maybe got too clever. I pulled out the functionality to sync the state with AsyncStorage into it's own hook.
 
-```react
+```tsx
 const [thing, setThing] = useStateSyncedWithAsyncStorage<T>(asyncStorageKey: string, transformer: (thing: T) => string): [T | null, (thing: T) => Promise<void>]
 ```
 
 Until someone lets me know why that's terribly wrong, I'm pretty happy with the result.
 
-```react
+```tsx
 import React from "react"
 import AsyncStorage from "@react-native-async-storage/async-storage"
 
@@ -46,7 +46,7 @@ export default useStateSyncedWithAsyncStorage
 
 AsyncStorage can only hold strings, so when we get a value out of AsyncStorage and try to put it in a typed useState value, typescript will complain. That's where the transformer parameter helps. If we're storing a `number` in our `useState`, then we need a way to convert that thing from a string (when we get it out of AsyncStorage) back to it's typed `useState` type. Here's an example of using this hook to store a number on context and keep it synced with AsyncStorage across app launches.
 
-```react
+```tsx
 import React from "react"
 import type { Provider as ProviderType } from "types/Provider"
 import emptyPromiseReturningFunctionForInitializingContexts from "helpers/emptyPromiseReturningFunctionForInitializingContexts"
