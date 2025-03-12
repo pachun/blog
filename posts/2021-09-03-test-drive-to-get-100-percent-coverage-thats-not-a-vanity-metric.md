@@ -1,7 +1,5 @@
 # Test Drive to Get 100% Coverage That's Not a Vanity Metric
 
-Nicholas Pachulski
-
 _September 3rd, 2021_
 
 A vanity metric looks good on paper but doesn't inform future strategies. It falsely increases confidence.
@@ -44,3 +42,5 @@ All this said, I don't always strictly test drive my code anymore. I think there
 
 [1]: https://pachulski.dev/posts/test-driving.html
 [2]: https://pachulski.dev/posts/automated-testing.html
+
+[All Posts](/README.md)
