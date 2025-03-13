@@ -8,7 +8,7 @@ If you use [Expo](1) (and you should because it's @#$%ing awesome) then there's 
 
 **use `npx expo-doctor`**
 
-Use it often. Run it when you run `yarn tsc`. Run it when you run `yarn lint`. Run it when you run `yarn test`. Add it to your CI.
+Add it to your CI. Use it as often as you run `yarn tsc`, `yarn lint` and `yarn test`.
 
 Expo is awesome at updating things, letting you know, and telling you how it affects your project specifically. A week never goes by without `yarn doctor` issuing new warnings (to put it lightly; updates are usualy sent at least once per day). If you're staying on top of those changes as they happen, you'll have a much better time upgrading Expo SDKs.
 
