@@ -8,7 +8,7 @@ If you use [Expo](1) (and you should because it's @#$%ing awesome) then there's 
 
 **use `npx expo-doctor`**
 
-([expo-doctor docs](4))
+[expo-doctor documentation](4)
 
 Add it to your CI. Use it as often as you run `yarn tsc`, `yarn lint` and `yarn test`.
 
