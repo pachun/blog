@@ -1,4 +1,4 @@
-# Use Expo Doctor
+# Use Expo Doctor Often
 
 _March 13th, 2025_
 
