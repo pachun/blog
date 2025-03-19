@@ -18,7 +18,7 @@ I quickly stopped using the tmux-to-vim-pane crutch that I created because ... L
 
 After learning about Lua, it only took a couple months for me to start using all the tools I'd been using prior, but with the confidence to configure Neovim, which led to me using the others for their intended purposes. Which has been awesome:
 
-<img src="/assets/2025-03-18-lua-changed-my-life/tmux.png" alt="tmux" style="max-width: 200px;">
+![tmux](/assets/2025-03-18-lua-changed-my-life/tmux.png)
 
 Lua enabled me to start using vim correctly, customizing it wherever I felt appropriate. Which encouraged me to start thinking about how my other tools _should_ be used and then start using them that way.
 
