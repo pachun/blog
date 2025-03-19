@@ -34,9 +34,8 @@ I also still use tmux. I think I'm using it for what it's supposed to be used fo
 
 I feel like being able to configure what had seemed like the most complicated peice of my dotfiles, started this avalanche of learning that led me to learning so much more about the tools I've always used, enabled me to not only start using them correctly, but configure and customize them and really organize my development environment to a point where I usually feel way more focused. And when I need to unfocus on something and focus on something else really quickly, tmux plops me right where I need to be in less than 2 seconds.
 
-[All Posts](1)
+[All Posts](/README.md)
 
-[1]: /README.md
 [2]: https://www.lua.org
 [3]: https://www.ruby-lang.org
 [4]: https://elixir-lang.org
