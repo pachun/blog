@@ -1,5 +1,7 @@
 # Lua Changed My Life
 
+_March 18th, 2025_
+
 [Lua](2) changed my life.
 
 I love [Ruby](3) because it's the nicest programming language I've ever worked with. I'm using [Elixir](4) because I'm into functional programming concepts. I've been using [React](6) for a decade because it made front end development tolerable. I like making iPhone apps, so I'm a big fan of [Expo](9) & [React Native](7).
