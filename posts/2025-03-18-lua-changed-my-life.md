@@ -10,9 +10,9 @@ I don't like python.
 
 Regardless of which programming language I'm using, there are several tools that I've used (almost) every day for well over a decade (~13 years): Neovim, Git and Tmux.
 
-About a year ago, I learned that Lua had become Neovim's default configuration language. [Since then, my dotfiles have evolved to place that I'm actually proud of](1).
+About a year ago, I learned that Lua had become Neovim's default configuration language. [Since then, my dotfiles have evolved to place that I'm actually proud of][1].
 
-Before Lua, I floundered to configure Vim with VimScript. It felt arcane. I disappointed [friends and colleagues](2) by abusing tools they love. I misused tmux panes to (in part) compensate for my lack of vim configuration for over a decade. I had been opening a vim instance in each tmux pane to see all the different relevant bits of a bunch of files at once. After Lua, I stopped using doing that. I configured vim panes to work the way I'd been abusing tmux panes (hotkey-wise), to ease the transition and take advantage of vim, because Lua made it easy to configure.
+Before Lua, I floundered to configure Vim with VimScript. It felt arcane. I disappointed [friends and colleagues][2] by abusing tools they love. I misused tmux panes to (in part) compensate for my lack of vim configuration for over a decade. I had been opening a vim instance in each tmux pane to see all the different relevant bits of a bunch of files at once. After Lua, I stopped using doing that. I configured vim panes to work the way I'd been abusing tmux panes (hotkey-wise), to ease the transition and take advantage of vim, because Lua made it easy to configure.
 
 I quickly stopped using the tmux-to-vim-pane crutch that I created because ... Lua made it easy for me to install an LSP. Jumping directly to the definition of somthing, and then right back out to where you had been is _so_ much better than opening a tmux pane and new vim instance. I stopped typing `vim full/file/path.rb` because Lua made it approachable for me to install and configure telescope.
 
