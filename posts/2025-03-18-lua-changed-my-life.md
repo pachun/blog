@@ -24,8 +24,6 @@ After learning about Lua, it only took a couple months for me to start using all
 
 Lua enabled me to start using vim correctly, customizing it wherever I felt appropriate. Which encouraged me to start thinking about how my other tools _should_ be used and then start using them that way.
 
-Lua is better than Python.
-
 [All Posts](/README.md)
 
 [1]: https://github.com/pachun/boo
