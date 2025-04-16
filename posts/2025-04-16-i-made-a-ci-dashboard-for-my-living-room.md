@@ -2,13 +2,17 @@
 
 _April 16th, 2025_
 
-<img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/photo.png" alt="photo" style="max-width: 400px; width: 100%;" />
-
 When I was in high school, I kept my report card under the peice of glass on my desk that protected the surface from all the coke can rings. I kept my most recent tests pinned to the wall above the desk. It helped me stay focused and kept my goals top of mind.
 
-When I worked at Pivotal Labs, teams of 4-15 people worked at a single big desk, at the end of which was a monitor showing the statuses of our project's CI/CD servers. It helped us stay focused and kept the project top of mind. It also really helps you notice when a merge breaks the app or a deploy fails. It's right there, in your face and everyone reacts immediately. It's a lot less easy to trigger a merge, build, check and deploy and then close the tab, start working on the next user story and then realize you broke the build hours later. I could extol the virtues of having a CI/CD monitor visible for a while...
+When I worked at Pivotal Labs, teams of 4-15 people worked at a single big desk, at the end of which was a monitor showing the statuses of our project's CI/CD servers. It helped us stay focused and kept the project top of mind. It also really helps you notice when a merge breaks the app or a deploy fails. It's a lot less easy to trigger a merge, close a browser tab and then realize hours later that you broke your build ten minutes after triggering it. I could extol the virtues of having a CI/CD monitor visible for a while...
 
-The point is, I made one for my personal project at home. I was cleaning out that one closet in my house that had a bunch of dragons (unorganized piles of old clothes, boxes of tech, old furniture, etc) in it. The kind of place you keep out of sight so that it stays out of mind. Yesterday, while I was cleaning it, I found a coffee table, monitor, and my old laptop and thought...
+The point is, I made one for my personal project at home.
+
+<p align="center">
+  <img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/photo.png" width="600" alt="photo" />
+</p>
+
+I was cleaning out that one closet in my house that had a bunch of dragons (unorganized piles of old clothes, boxes of tech, old furniture, etc) in it. The kind of place you keep out of sight so that it stays out of mind. Yesterday, while I was cleaning it, I found a coffee table, monitor, and my old laptop and thought...
 
 💡 I could clean the closet and keep my personal project's CI status top of mind ✨
 
@@ -22,6 +26,8 @@ I tried to find something - an app, plugin, whatever - that already existed to s
 
 So, instead, I (shut up, ChatJippity) made a rails app that has an endpoint that I plugged into my github project's settings dashboard. When I trigger new builds, GitHub lets me know and hits the webhook endpoint. Then ActionCable lets the view know that the status of the build changed. I'm pretty happy with the result. It works exactly how I wanted and [you can use it too if that turns your crank](https://github.com/pachun/gh_ci_monitor).
 
-<img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/screenshot.png" alt="screenshot" style="max-width: 400px; width: 100%;" />
+<p align="center">
+  <img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/screenshot.png" width="600" alt="screenshot" />
+</p>
 
 [All Posts](/README.md)
