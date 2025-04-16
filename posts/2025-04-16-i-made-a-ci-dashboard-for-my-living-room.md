@@ -14,7 +14,7 @@ The point is, I made one for my personal project at home.
 
 I was cleaning out that one closet in my house that had a bunch of dragons (unorganized piles of old clothes, boxes of tech, old furniture, etc) in it. The kind of place you keep out of sight so that it stays out of mind. Yesterday, while I was cleaning it, I found a coffee table, monitor, and my old laptop and thought...
 
-💡 I could clean the closet and keep my personal project's CI status top of mind ✨
+💡 I could clean the closet and keep my personal project's CI status top of mind.
 
 Physically cleaning the closet and setting up the CI dashboard in my living room took a few hours. Getting the dashboard to actually work took slightly longer, I think. I spent about three hours today getting something running that I'm happy with.
 
