@@ -1,5 +1,6 @@
 # Nicholas Pachulski's Blog
 
+- [I made a CI Dashboard for My Living Room](/posts/2025-04-16-i-made-a-ci-dashboard-for-my-living-room.md)
 - [Lua Changed My Life](/posts/2025-03-18-lua-changed-my-life.md)
 - [Use Expo Doctor Often](/posts/2025-03-13-use-expo-doctor-often.md)
 - [Hosting My Blog in GitHub](/posts/2025-03-11-hosting-my-blog-in-github.md)
