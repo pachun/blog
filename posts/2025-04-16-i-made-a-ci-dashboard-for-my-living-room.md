@@ -2,7 +2,7 @@
 
 _April 16th, 2025_
 
-![photo](/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/photo.png)
+<img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/photo.png" alt="photo" style="max-width: 400px; width: 100%;" />
 
 When I was in high school, I kept my report card under the peice of glass on my desk that protected the surface from all the coke can rings. I kept my most recent tests pinned to the wall above the desk. It helped me stay focused and kept my goals top of mind.
 
@@ -18,8 +18,10 @@ The first thing I tried was leaving two Safari windows on, sharing the screen re
 
 I thought about downloading chrome and an extension to auto reload the page every minute or so. I don't love polling, but it'd work for the quick setup I wanted. Then I realized that the screen would be flashing every minute when the page reloaded... I can live with polling but I _really_ don't like a flashing screen in my living room.
 
-So, instead, I made a little rails app that has an endpoint that I plugged into my github project's settings dashboard. When I trigger new builds, GitHub lets me know and hits the webhook endpoint. Then ActionCable lets the view know that the status of the build changed. I'm pretty happy with the result.
+I tried to find something - an app, plugin, whatever - that already existed to show me those statuses on a dedicated monitor, but I was surprised that I couldn't find anything - and I wasn't being _super_ picky.
 
-![screenshot](/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/screenshot.png)
+So, instead, I (shut up, ChatJippity) made a rails app that has an endpoint that I plugged into my github project's settings dashboard. When I trigger new builds, GitHub lets me know and hits the webhook endpoint. Then ActionCable lets the view know that the status of the build changed. I'm pretty happy with the result. It works exactly how I wanted and [you can use it too if that turns your crank](https://github.com/pachun/gh_ci_monitor).
+
+<img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/screenshot.png" alt="screenshot" style="max-width: 400px; width: 100%;" />
 
 [All Posts](/README.md)
