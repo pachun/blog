@@ -9,7 +9,7 @@ When I worked at Pivotal Labs, teams of 4-15 people worked at a single big desk,
 I could spend lots of time extolling the benefits of continuous integration and continuous deploys. The point is, I made a CI/CD dashboard for my personal project at home and put it in my living room.
 
 <p align="center">
-  <img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/photo.png" width="600" alt="photo" />
+  <img src="/posts/assets/2025-04-16-i-made-a-ci-dashboard-for-my-living-room/photo.png" height="600" alt="photo" />
 </p>
 
 I was cleaning out that one closet in my house that had a bunch of dragons (unorganized piles of old clothes, boxes of tech, old furniture, etc) in it. The kind of place you keep out of sight so that it stays out of mind. Yesterday, while I was cleaning it, I found a coffee table, monitor, and my old laptop and had a thought 💡
