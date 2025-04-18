@@ -4,11 +4,11 @@ _March 13th, 2025_
 
 You may have heard: React Native upgrades are hard.
 
-If you use [Expo](1) (and you should because it's @#$%ing awesome) then there's something you should do to ensure your Expo SDK upgrades go [as smoothly as they should](3).
+If you use [Expo][1] (and you should because it's @#$%ing awesome) then there's something you should do to ensure your Expo SDK upgrades go [as smoothly as they should][3].
 
 **use `npx expo-doctor`**
 
-[expo-doctor documentation](4)
+[expo-doctor documentation][4]
 
 Add it to your CI. Use it as often as you run `yarn tsc`, `yarn lint` and `yarn test`.
 
