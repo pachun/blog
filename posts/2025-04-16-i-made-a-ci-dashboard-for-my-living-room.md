@@ -2,7 +2,7 @@
 
 _April 16th, 2025_
 
-When I was in high school, I kept my report card under the peice of glass on my desk that protected the surface from all the coke can rings. I kept my most recent tests pinned to the wall above the desk. It helped me stay focused and kept my goals top of mind.
+When I was in high school, I kept my report card under the piece of glass on my desk that protected the surface from all the coke can rings. I kept my most recent tests pinned to the wall above the desk. It helped me stay focused and kept my goals top of mind.
 
 When I worked at Pivotal Labs, teams of 4-15 people worked at a single big desk, at the end of which was a monitor showing the statuses of our project's CI/CD servers. It helped us stay focused and kept the project top of mind. It also really helps you notice when a merge breaks the app or a deploy fails, which was useful, since we deployed several times per day most days. It's a lot less easy to trigger a merge, close a browser tab and then realize hours later that you broke your build ten minutes after triggering it.
 
