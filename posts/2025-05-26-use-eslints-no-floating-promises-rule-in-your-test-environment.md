@@ -8,13 +8,13 @@ I recently upgraded my personal project's [Expo][1] SDK to version 53 (from 52) 
 
 A lot of them.
 Enough to overflow my terminal's scroll buffer.
-Every test still passed and I still had the right test coverage.
+Every test still passed and I still had the same coverage.
 
 I ran each test file individually.
 I have lots of these...
 It took a little while but I found the offending file.
 
-I ran each test in the file individually.
+I ran each test in that file individually.
 There were lots of those too...
 Every test passed without any warnings.
 
@@ -71,9 +71,13 @@ describe("when the inbox thread list is pulled down from the top", () => {
 Given the title of this post, you can probably already see the problem.
 I didn't and I'd already spent at least an hour figuring out which test was the problem.
 Then I spent about 2 more hours figuring out that `signin()` call needed to be `await`ed.
+It's a helper I wrote and it's in almost _all_ of my tests because typically, I don't need finer grained control that it.
+In every single case, I remembered to await it.
+Except this one.
+Whoops.
 
 This isn't the first time I've lost hours to that problem; Forgetting an `await` in a test.
-I just turned on the [`no-floating-promises` Eslint rule][2] (only for my test suite) and I'm pretty pleased with myself becuase if I charged myself what I charge clients...
+I just turned on the `no-floating-promises` [Eslint rule][2] (only for my test suite) and I'm pretty pleased with myself becuase if I charged myself what I charge clients...
 I just saved myself a lot of money.
 Depending on how you look at it, I guess 🙃
 
