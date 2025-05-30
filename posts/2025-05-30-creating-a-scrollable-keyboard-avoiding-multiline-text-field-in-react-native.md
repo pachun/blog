@@ -108,7 +108,7 @@ There are a few drawbacks to my approach; it requires react native reanimated. I
 If you're curious (in truth, I just want you to look), here's a snapshot of the work in progress screen I'm using it for; It's an email client.
 
 <p align="center">
-  <img src="/posts/assets/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native/emma.png" width="600" alt="emma" />
+  <img src="/posts/assets/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native/emma.png" height="500" alt="emma" />
 </p>
 
 Hope it helps someone... 🙏
