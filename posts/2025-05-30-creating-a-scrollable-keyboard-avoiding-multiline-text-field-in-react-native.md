@@ -105,6 +105,12 @@ editable={!isScrollingUnfocusedField}
 
 There are a few drawbacks to my approach; it requires react native reanimated. I didn't mind for my purposes, because I was already using it. There's also a bit of a delay when you tap to edit text low in the field - the keyboard rises and covers the text before the scrollview animates to compensate. It's not too bad, but it's definitely noticeable.
 
+If you're curious (in truth, I just want you to look), here's a snapshot of the work in progress screen I'm using it for; It's an email client.
+
+<p align="center">
+  <img src="/posts/assets/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native/emma.png" width="600" alt="emma" />
+</p>
+
 Hope it helps someone... 🙏
 
 [All Posts](/README.md)
