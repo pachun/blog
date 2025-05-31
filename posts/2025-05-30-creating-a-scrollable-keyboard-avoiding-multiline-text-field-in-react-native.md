@@ -2,7 +2,7 @@
 
 _May 30th, 2025_
 
-I guess it's tough to create a keyboard-avoiding, multiline text field in React Native. I spent a few hours trying today and got to [a place that I'm reasonably happy with][1].
+I guess it's tough to create a keyboard-avoiding, multiline text field in React Native. I spent a few hours trying today and got to [a place that I'm reasonably happy with][1] (<- That's a 15 second video that GH will make you download; no problem if you don't trust me or aren't interested; I'm just unsure where to host video assets).
 
 [Here's a demo repository with all of the code, context and history][2].
 
