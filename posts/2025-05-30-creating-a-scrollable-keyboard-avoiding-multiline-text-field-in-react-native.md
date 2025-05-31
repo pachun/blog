@@ -68,7 +68,6 @@ const KeyboardAvoidingMultilineTextInput = () => {
           ref={fieldRef}
           value={fieldValue}
           onChangeText={setFieldValue}
-          testID="Body Field"
           style={{
             flex: 1,
             padding: 16,
