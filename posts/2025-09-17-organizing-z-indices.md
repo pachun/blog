@@ -4,7 +4,7 @@ _September 17th, 2025_
 
 I've been working on a react native application that uses react-native-reanimated animations.
 
-To prioritize the order of which components should be displayed over others, I'd been assigning things arbitrary `zIndex` values in their `style`s props. Once there were a handful of components with a `zIndex`, I found myself jumping between files, writing down component names and their corresponding `zIndex` in order to add new animations.
+To prioritize the order of which components display over others during animations, I've been assigning semi-arbitrary `zIndex` values. Today I added a new animation and found myself jumping between files, writing down component names and their corresponding `zIndex`.
 
 Here are my notes:
 
@@ -22,10 +22,12 @@ Here are my notes:
 // barAboveComposeKeyboard -> 10
 ```
 
-Each of those are in a different file. Without the organization I added above (grouping via newlines) it'd be hard to tell which indices were importantly related to others. As I thought about what a chore this was, I realized a few things:
+Each of those `zIndex`'s are in distinct files.
+
+Without the ability to see all those in one place and without the grouping-via-newline organization that I added, it'd be tough to tell which indices were importantly related to others.
 
 - I want to see all those values in a single place, as above
-- I also don't actually care about the numberical zIndex values; just their order in the list
+- I also don't actually care about the zIndex values; just their order in the list
 
 To solve that problem, I made a `zIndex.ts` file:
 
@@ -73,19 +75,19 @@ That function calculates this value:
   }
 ```
 
-And then returns the value for the key passed in. It's used like this:
+And then returns the value for the key passed to it.
+
+It's used like this:
 
 ```ts
 import { View } from "react-native"
 import zIndex from "src/zIndex"
 
-const Thing = () => {
-  <View style={{zIndex: zIndex("navigationBarBackground")}}>
-  </View>
-}
+const NavigationBar = () =>
+  <View style={{zIndex: zIndex("navigationBarBackground")}} />
 ```
 
-Now I can decide the priority for any new elements at a high level in a single place, without the need to open several files or concern myself with arbitrary numeric values.
+Now I can decide the display priority for any new elements without the need to open several files or concern myself with arbitrary `zIndex` values.
 
 Also, the `zIndex()` function call is type safe; so if I misspell the name of a zIndex, I'll get a typescript error.
 
