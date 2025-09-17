@@ -1,5 +1,9 @@
 # Nicholas Pachulski's Blog
 
+I write about writing software and I love test driven development.
+
+Most recently, I've been working on an [Expo React Native mobile application](https://emmaemail.app).
+
 - [Organizing zIndices](/posts/2025-09-17-organizing-z-indices.md)
 - [Creating a Scrollable, Keyboard-Avoiding Multiline Text Field in React Native](/posts/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native.md)
 - [Use ESLint's `no-floating-promises` rule in Your Test Environment](/posts/2025-05-26-use-eslints-no-floating-promises-rule-in-your-test-environment.md)
