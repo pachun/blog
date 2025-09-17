@@ -1,5 +1,6 @@
 # Nicholas Pachulski's Blog
 
+- [Organizing zIndices](/posts/2025-09-17-organizing-z-indices.md)
 - [Creating a Scrollable, Keyboard-Avoiding Multiline Text Field in React Native](/posts/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native.md)
 - [Use ESLint's `no-floating-promises` rule in Your Test Environment](/posts/2025-05-26-use-eslints-no-floating-promises-rule-in-your-test-environment.md)
 - [I made a CI Dashboard for My Living Room](/posts/2025-04-16-i-made-a-ci-dashboard-for-my-living-room.md)
