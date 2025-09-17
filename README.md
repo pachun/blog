@@ -1,8 +1,10 @@
 # Nicholas Pachulski's Blog
 
-I write about writing software and I love test driven development.
+I write about my experience writing software.
 
-Most recently, I've been working on an [Expo React Native mobile application](https://emmaemail.app).
+I love ruby, react and test driven development.
+
+Right now I'm building an iOS [email client](https://emmaemail.app) for fellow travelers who miss [Newton](<https://en.wikipedia.org/wiki/Newton_(software)>).
 
 - [Organizing zIndices](/posts/2025-09-17-organizing-z-indices.md)
 - [Creating a Scrollable, Keyboard-Avoiding Multiline Text Field in React Native](/posts/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native.md)
