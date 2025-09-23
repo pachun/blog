@@ -4,7 +4,7 @@ I write about my experience writing software.
 
 I love ruby, react and test driven development.
 
-Right now I'm building an iOS [email client](https://emmaemail.app) for fellow travelers who miss [Newton](<https://en.wikipedia.org/wiki/Newton_(software)>).
+I'm working on an iOS [email client](https://emmaemail.app) for fellow travelers who miss [Newton](<https://en.wikipedia.org/wiki/Newton_(software)>).
 
 - [Organizing zIndices](/posts/2025-09-17-organizing-z-indices.md)
 - [Creating a Scrollable, Keyboard-Avoiding Multiline Text Field in React Native](/posts/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native.md)
