@@ -6,6 +6,7 @@ I love ruby, react and test driven development.
 
 I'm working on an iOS [email client](https://emmaemail.app) for fellow travelers who miss [Newton](<https://en.wikipedia.org/wiki/Newton_(software)>).
 
+- [I'm trying Arch Linux](/posts/2025-10-16-im-trying-arch-linux.md)
 - [Organizing zIndices](/posts/2025-09-17-organizing-z-indices.md)
 - [Creating a Scrollable, Keyboard-Avoiding Multiline Text Field in React Native](/posts/2025-05-30-creating-a-scrollable-keyboard-avoiding-multiline-text-field-in-react-native.md)
 - [Use ESLint's `no-floating-promises` rule in Your Test Environment](/posts/2025-05-26-use-eslints-no-floating-promises-rule-in-your-test-environment.md)
