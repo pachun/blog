@@ -12,16 +12,16 @@ I think iOS 26 and Liquid Glass is a blunder.
 Bugs and legibility aside, it just looks bad.
 
 The guy who largely made Ruby on Rails ([DHH](https://world.hey.com/dhh)) is also falling out of love with Apple and looking for alternatives, (though I think for [different reasons](https://world.hey.com/dhh/hey-is-finally-for-sale-on-the-iphone-a08cb218)).
-Reading about the new [linux distribution](https://omarchy.org) he recently released and how [successful it's been]() inspired me to try linux again.
+Reading about the new [linux distribution](https://omarchy.org) he recently released and how [successful it's been](https://x.com/dhh/status/1978540285853409706) inspired me to try linux again.
 
 I haven't been back to linux since college and I did write an operating system in high school for fun, so I was mostly confident I could swing a new Arch installation.
 
 So I bought a [framework laptop](https://frame.work) and installed [Arch](https://archlinux.org) on it.
 It's only been a day - but it's been blast so far.
 
-As in installed Arch after work last night, I took notes.
-I did get frustrated at several points, but ChatGPT held me hand through the whole thing.
-I'm leaving those notes here for future me and the six of you who've ever read this blog.
+As I installed Arch after work last night, I took notes.
+I did get frustrated at several points, but ChatGPT held my hand through the whole thing.
+I'm leaving those notes here for future me.
 
 There are points where I swear a bit. I think it adds authenticity.
 
