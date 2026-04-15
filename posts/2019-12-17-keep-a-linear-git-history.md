@@ -1,6 +1,6 @@
 # Keep a Linear Git History
 
-_July 15th, 2020_
+_December 17th, 2019_
 
 The goal of this guide is to help teach you how to keep your repository's history clear.
 
